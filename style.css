@@ -103,6 +103,9 @@ body {
   }
   body {
     padding: 8.1rem 0 0;
+    background-image: url("images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 432px 321px;
   }
   body .title-container {
     display: inline-block;

@@ -112,6 +112,9 @@ $white: hsl(0, 0%, 100%);
 
   body {
     padding: 8.1rem 0 0;
+    background-image: url("images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 432px 321px;
 
     .title-container {
       display: inline-block;
