@@ -1,0 +1,186 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+// Primary
+$veryDarkMagenta: hsl(300, 43%, 22%);
+$softPink: hsl(333, 80%, 67%);
+
+// Neutral
+$darkGrayishMagenta: hsl(303, 10%, 53%);
+$lightGraiyishMagenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+.title {
+  margin-top: 5.1rem;
+  text-align: center;
+  line-height: 2rem;
+  color: $veryDarkMagenta;
+}
+
+.pitch {
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  color: $darkGrayishMagenta;
+}
+
+.ratings {
+  margin-top: 2.6rem;
+  .rating {
+    text-align: center;
+    line-height: 1.5rem;
+    background-color: $lightGraiyishMagenta;
+    border-radius: 10px;
+    margin: 1rem 0;
+    padding: 0.9rem;
+
+    .stars {
+      img {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        margin: 0.1rem;
+      }
+    }
+
+    .rating-text {
+      color: $veryDarkMagenta;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+  }
+}
+
+.reviews {
+  margin-top: 3rem;
+  .review {
+    background-color: $veryDarkMagenta;
+    padding: 2.5rem 2rem 1.6rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+
+    img {
+      width: 2.5rem;
+      border-radius: 50%;
+      float: left;
+    }
+
+    .reviewer {
+      margin-top: 0.1rem;
+      margin-left: 4rem;
+      line-height: 1.23rem;
+
+      .reviewer-name {
+        display: block;
+        color: $white;
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
+
+      .reviewer-role {
+        color: $softPink;
+        font-size: 0.8rem;
+      }
+    }
+
+    .review-text {
+      margin-top: 1.8rem;
+      color: $white;
+      font-size: 0.794rem;
+      line-height: 1.4rem;
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    padding-top: 8.1rem;
+    padding-left: 10.3rem;
+
+    .title-container {
+      display: inline-block;
+      width: 27rem;
+      .title {
+        margin: 0;
+        text-align: left;
+        font-size: 3rem;
+        line-height: 3rem;
+      }
+
+      .pitch {
+        text-align: left;
+        margin-top: 0.9rem;
+      }
+    }
+
+    .ratings {
+      display: inline-block;
+      margin: 0 8.4rem;
+      position: relative;
+      bottom: 1.65rem;
+
+      .rating {
+        padding-top: 0.9rem;
+        padding-bottom: 0.75rem;
+        padding-left: 1.0rem;
+        padding-right: 4.9rem;
+
+        .stars {
+          display: inline;
+          vertical-align: text-top;
+
+          img {
+            margin-left: 0.2rem;
+          }
+        }
+        .rating-text {
+          margin-left: 1.7rem;
+        }
+      }
+      .rating:nth-of-type(2) {
+        position: relative;
+        left: 3.1rem;
+      }
+      .rating:nth-of-type(3) {
+        position: relative;
+        left: 5.9rem;
+      }
+    }
+
+    .reviews {
+      margin-top: 1.6rem;
+
+      .review {
+        display: inline-block;
+        width: 17.9rem;
+      }
+
+      .review:nth-of-type(2) {
+        position: relative;
+        left: 1.6rem;
+        top: 1.1rem;
+      }
+      .review:nth-of-type(3) {
+        position: relative;
+        left: 3.2rem;
+        top: 2.1rem;
+      }
+    }
+
+    .attribution {
+      margin-top: 3rem;
+    }
+  }
+}
