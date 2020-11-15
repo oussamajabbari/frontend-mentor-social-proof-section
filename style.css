@@ -97,9 +97,12 @@ body {
 }
 
 @media screen and (min-width: 600px) {
+  html {
+    max-width: 69.4rem;
+    margin: 0 auto;
+  }
   body {
-    padding-top: 8.1rem;
-    padding-left: 10.3rem;
+    padding: 8.1rem 0 0;
   }
   body .title-container {
     display: inline-block;
@@ -117,7 +120,10 @@ body {
   }
   body .ratings {
     display: inline-block;
-    margin: 0 8.4rem;
+    margin-top: 0;
+    margin-left: 8.4rem;
+    margin-bottom: 0;
+    margin-right: 0rem;
     position: relative;
     bottom: 1.65rem;
   }
