@@ -104,7 +104,9 @@ body {
     background-repeat: no-repeat;
   }
   body {
-    padding: 8.1rem 10.3rem 0;
+    max-width: 69.4rem;
+    margin: 0 auto;
+    padding: 8.1rem 0 0;
   }
   body .title-container {
     display: inline-block;
