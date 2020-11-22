@@ -110,7 +110,8 @@ $white: hsl(0, 0%, 100%);
 
     background-image: url('images/bg-pattern-top-desktop.svg'),
       url('images/bg-pattern-bottom-desktop.svg');
-      background-position:  left top, right bottom;
+    background-position:  left top, right bottom;
+    background-size: 40% 45%, 75% 84%;
     background-repeat: no-repeat;
   }
 
@@ -143,11 +144,11 @@ $white: hsl(0, 0%, 100%);
       margin-bottom: 0;
       margin-right: 0rem;
       position: relative;
-      bottom: 1.65rem;
+      bottom: 1.2rem;
 
       .rating {
-        padding-top: 0.9rem;
-        padding-bottom: 0.75rem;
+        padding-top: 1rem;
+        padding-bottom: 0.8rem;
         padding-left: 1rem;
         padding-right: 4.9rem;
 
