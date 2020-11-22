@@ -98,14 +98,13 @@ body {
 
 @media screen and (min-width: 600px) {
   html {
-    max-width: 69.4rem;
-    margin: 0 auto;
+    margin: 0;
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
   }
   body {
-    padding: 8.1rem 0 0;
-    background-image: url("images/bg-pattern-top-desktop.svg");
-    background-repeat: no-repeat;
-    background-size: 432px 321px;
+    padding: 8.1rem 10.3rem 0;
   }
   body .title-container {
     display: inline-block;
@@ -133,7 +132,7 @@ body {
   body .ratings .rating {
     padding-top: 0.9rem;
     padding-bottom: 0.75rem;
-    padding-left: 1.0rem;
+    padding-left: 1rem;
     padding-right: 4.9rem;
   }
   body .ratings .rating .stars {
